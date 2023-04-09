@@ -118,6 +118,14 @@ h5 {
   }
 }
 
+/* chris spinning */
+@keyframes spinnerchris {
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+
 .loading {
   width: 6rem;
   height: 6rem;
@@ -127,10 +135,16 @@ h5 {
   border-top-color: var(--primary-500);
   animation: spinner 0.3s linear infinite;
 }
+/* chris div */
+.chris{
+  animation: spinnerchris 0.9s linear;
+}
+
 /* title */
 
 .title {
   text-align: center;
+ 
 }
 
 .title-underline {
@@ -229,3 +243,4 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
